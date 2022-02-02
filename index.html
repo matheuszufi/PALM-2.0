@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/index.css">
+    <link rel="icon" type="image/x-icon" href="/imagens/INDEX/logoIcon.png">
+    <script src="https://kit.fontawesome.com/c551bd4cf4.js" crossorigin="anonymous"></script>
+    <title>PALM TREE BEACH CLUB</title>
+</head>
+
+<body>
+    <section id="container">
+
+        <header id="header">
+            <div id="dMenuH" id="barra">
+                <div id="barraMenu" onclick="abrirMenu()">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+            <div id="dLogo">
+                <img src="imagens/INDEX/logoIcon.png">
+            </div>
+            <div id="dLista">
+                <ul>
+                    <li>HOME</li>
+                    <li>CARDÁPIO</li>
+                    <li>AGENDAMENTO</li>
+                    <li>CONTATO</li>
+                </ul>
+
+            </div>
+            <div id="divisoria"></div>
+            <div id="dRedesSociais">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-facebook-square"></i></a>
+            </div>
+        </header>
+        <div id="tprincipal">
+            <h1>BEM VINDO A UMA NOVA <br><span>EXPERIENCIA</span> COM A MÚSICA!</h1>
+
+        </div>
+
+        <div id="dConteudo1">
+            <div id="conteudobg">
+                <div id="conteudo1">
+                    <img id="dec1" src="imagens/INDEX/fotoDrink1.png">
+                </div>
+                <div id="conteudo2">
+                    <img id="hero" src="imagens/INDEX/contentHero.png">
+                </div>
+                <div id="conteudo3">
+                    <img id="dec2" src="imagens/INDEX/fotoDrinkHero.png">
+                </div>
+            </div>
+        </div>
+
+        <div id="dSquares">
+            <div id="square1">
+                <div class="square" id="s1" style="--i:0;"></div>
+            </div>
+        </div>
+
+
+        <div id="dSquares2">
+            <div id="square2">
+                <div class="square2" id="s1" style="--i:0;"></div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+        <div id="dMenuSSH">
+            <div id="closeMenu">
+                <i class="fas fa-bars"></i>
+            </div>
+
+            <div id="menuHList">
+                <ul>
+                    <li>HOME</li>
+                    <li>CARDÁPIO</li>
+                    <li>AGENDAMENTO</li>
+                    <li>CONTATO</li>
+                </ul>
+            </div>
+
+
+        </div>
+
+
+
+
+    </section>
+
+    <script>
+        var menu = document.getElementById('dMenuSSH')
+
+
+        function abrirMenu() {
+
+            if (menu.style.display === "none") {
+                menu.style.display = "flex";
+            }
+
+            document.getElementById('barraMenu').addEventListener('click', mostrarMenu);
+        }
+
+
+
+    </script>
+</body>
+
+</html>
